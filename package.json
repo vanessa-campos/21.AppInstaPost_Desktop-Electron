@@ -1,0 +1,17 @@
+{
+  "name": "insta_post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/instagram.ico --out=packages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electon": "^0.0.1-security",
+    "electron": "^20.0.2"
+  }
+}
